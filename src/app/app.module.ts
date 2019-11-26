@@ -12,6 +12,7 @@ import { FaqComponent } from './faq/faq.component';
 import { AboutComponent } from './about/about.component';
 import { CountryComponent } from './country/country.component';
 import { NumberComponent } from './number/number.component';
+import { NumbersComponent } from './numbers/numbers.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { NumberComponent } from './number/number.component';
     FaqComponent,
     AboutComponent,
     CountryComponent,
-    NumberComponent
+    NumberComponent,
+    NumbersComponent
   ],
   imports: [
     BrowserModule,

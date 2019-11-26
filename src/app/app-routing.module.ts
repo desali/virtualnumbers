@@ -5,7 +5,7 @@ import { FaqComponent } from './faq/faq.component';
 import { AboutComponent } from './about/about.component';
 import { CountryComponent } from './country/country.component';
 import { NumberComponent } from './number/number.component';
-
+import { NumbersComponent } from './numbers/numbers.component';
 
 const routes: Routes = [
   {
@@ -17,7 +17,11 @@ const routes: Routes = [
     component: CountryComponent
   },
   {
-    path: 'number/:id',
+    path: 'numbers/:country_id',
+    component: NumbersComponent
+  },
+  {
+    path: 'number/:number',
     component: NumberComponent
   },
   {

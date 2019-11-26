@@ -12,4 +12,10 @@ export class NumberComponent implements OnInit {
   ngOnInit() {
   }
 
+  scrollToTable() {
+    document.querySelector('.guide-description').scrollIntoView({
+      behavior: 'smooth'
+    });
+  }
+
 }
